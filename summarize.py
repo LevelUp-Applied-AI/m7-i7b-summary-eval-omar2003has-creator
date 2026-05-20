@@ -11,6 +11,8 @@ import json
 import os
 
 import pandas as pd
+from transformers import pipeline
+from rouge_score import rouge_scorer
 
 
 # -- Helpers (provided — do NOT modify) --------------------------------------
@@ -36,8 +38,7 @@ def _output_path() -> str:
 
 def build_summarizer(model_name: str):
     """Construct a Hugging Face summarization pipeline."""
-    # TODO: build a summarization pipeline using the given model name (same as the drill)
-    raise NotImplementedError("build_summarizer not implemented")
+    return pipeline("summarization", model=model_name)
 
 
 def summarize_one(summ, text: str, max_length: int = 120, min_length: int = 30) -> str:
@@ -47,8 +48,14 @@ def summarize_one(summ, text: str, max_length: int = 120, min_length: int = 30) 
     Use do_sample=False, num_beams=4. Return the summary STRING from
     [0]["summary_text"].
     """
-    # TODO: invoke the pipeline with deterministic generation parameters (no sampling, beam search) and return the summary string
-    raise NotImplementedError("summarize_one not implemented")
+    out = summ(
+        text, 
+        max_length=max_length, 
+        min_length=min_length, 
+        do_sample=False, 
+        num_beams=4
+    )
+    return out[0]["summary_text"]
 
 
 # -- Task 2: ROUGE -----------------------------------------------------------
@@ -57,14 +64,16 @@ def compute_rouge(pred: str, ref: str) -> dict:
     """
     Compute ROUGE-1, ROUGE-2, and ROUGE-L F1.
 
-    Use rouge_score.rouge_scorer.RougeScorer with use_stemmer=True.
-    Argument order: scorer.score(reference, predicted) — REFERENCE FIRST.
-
-    Returns {"rouge1": float, "rouge2": float, "rougeL": float}, all F1.
     """
-    # TODO: build a stemming-enabled ROUGE scorer over the three metric variants
-    # TODO: score the (reference, predicted) pair and return F1 measures only (note argument order)
-    raise NotImplementedError("compute_rouge not implemented")
+    #  use_stemmer=True  It returns words to their linguistic root (for example, the words: running, runs, ran completely are unified and interpreted as run).
+    scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
+    scores = scorer.score(ref, pred)
+    
+    return {
+        "rouge1": float(scores["rouge1"].fmeasure),
+        "rouge2": float(scores["rouge2"].fmeasure),
+        "rougeL": float(scores["rougeL"].fmeasure)
+    }
 
 
 # -- Task 3: Evaluate over the corpus ----------------------------------------
@@ -73,22 +82,44 @@ def evaluate_summaries(summ, articles_df: pd.DataFrame, refs_df: pd.DataFrame) -
     """
     Summarize each article and score against its reference.
 
-    Returns:
-        {
-          "rouge1": float, "rouge2": float, "rougeL": float,
-          "n": int,
-          "predictions": [
-            {article_id, reference_summary, predicted_summary, rouge1, rouge2, rougeL},
-            ...
-          ],
-        }
 
-    Joins articles_df and refs_df on article_id.
     """
-    # TODO: merge the two DataFrames on article_id
-    # TODO: iterate, summarize each article, compute ROUGE vs. reference
-    # TODO: aggregate (mean across summaries) and return the dict
-    raise NotImplementedError("evaluate_summaries not implemented")
+    merged_df = pd.merge(articles_df, refs_df, on="article_id")
+    
+    predictions = []
+    r1_total = 0.0
+    r2_total = 0.0
+    rl_total = 0.0
+    n = len(merged_df)
+    
+    for _, row in merged_df.iterrows():
+        article_id = str(row["article_id"])
+        text = str(row["text"])
+        ref_summary = str(row["reference_summary"])
+        
+        pred_summary = summarize_one(summ, text)
+        scores = compute_rouge(pred_summary, ref_summary)
+        
+        r1_total += scores["rouge1"]
+        r2_total += scores["rouge2"]
+        rl_total += scores["rougeL"]
+        
+        predictions.append({
+            "article_id": article_id,
+            "reference_summary": ref_summary,
+            "predicted_summary": pred_summary,
+            "rouge1": scores["rouge1"],
+            "rouge2": scores["rouge2"],
+            "rougeL": scores["rougeL"]
+        })
+        
+    return {
+        "rouge1": float(r1_total / n) if n > 0 else 0.0,
+        "rouge2": float(r2_total / n) if n > 0 else 0.0,
+        "rougeL": float(rl_total / n) if n > 0 else 0.0,
+        "n": int(n),
+        "predictions": predictions
+    }
 
 
 # -- Task 4: Orchestrate -----------------------------------------------------

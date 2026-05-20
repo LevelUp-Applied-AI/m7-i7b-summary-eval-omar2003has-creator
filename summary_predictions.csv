@@ -1,0 +1,423 @@
+article_id,reference_summary,predicted_summary,rouge1,rouge2,rougeL
+NEWS_0001,"In 1977 director Roman Polanski pleaded guilty to having sex with a 13-year-old girl .
+He has lived in France for decades to avoid arrest if he enters the U.S.
+Oscar winner was arrested en route to Zurich Film Festival, which was honoring him .
+Polanski won Oscar for best director for ""The Pianist;"" did not collect it in person ."," NEW: Roman Polanski arrested in Switzerland on a decades-old arrest warrant stemming from a sex charge in California . Polanski, 76, was arrested trying to enter Switzerland on Saturday, Zurich police say . He has lived in France for decades to avoid being arrested if he enters the United States . He pleaded guilty in 1977 to",0.5172413793103448,0.28070175438596495,0.32758620689655177
+NEWS_0002,"John Singleton's vehicle strikes woman, 57, who stepped into street .
+Singleton sober, not charged, allowed to leave after questioning .
+Director nominated for two Oscars for ""Boyz N the Hood"""," John Singleton was not under the influence of drugs, alcohol or any other substance, police say . Constance Russell, 57, of Los Angeles, died at a hospital a few hours after the accident . Singleton, 39, earned two Academy Award nominations for his 1991 debut film ""Boyz N the Hood""",0.33333333333333337,0.13157894736842105,0.25641025641025644
+NEWS_0003,"Some industry heavy hitters support Roman Polanski after his arrest .
+Many in the international film community continue to hail him as a hero .
+Polanski has remained a Hollywood insider while living as a fugitive .
+Film festival president: ""We hope today that this latest order will be dropped"""," Swiss filmmaker Roman Polanski was arrested Saturday in Switzerland . He was on his way to accept an award for Lifetime Achievement at the Zurich Film Festival . ""He's a brilliant guy, and he made a little mistake 32 years ago,"" says filmmaker Otto Weisser .",0.24175824175824176,0.04494382022471911,0.17582417582417584
+NEWS_0004,"Forbes crowns American investor Warren Buffett as world's richest person .
+After 13 years on top, Microsoft's Bill Gates drops to number three position .
+Russia replaces Germany as No. 2 country with 87 billionaires .
+Facebook founder Mark Zuckerberg may be youngest self-made billionaire in history ."," American investor Warren Buffett is worth an estimated $62 billion, up $10 billion from a year ago . Bill Gates, co-founder of Microsoft, is now ranked as the world's third richest person . For the first time, Forbes' rich list named more than 1,000 billionaires from around the world . Russia is now",0.34,0.12244897959183673,0.2
+NEWS_0005,"Mat Kearney enjoys growing success; new album is ""City of Black & White""
+Kearney has earned airplay on TV, including ""Grey's Anatomy""
+Kearney likes juxtaposition of personal lyrics, big musical sound ."," Mat Kearney's new album, ""City of Black & White"" (Aware/Columbia) is out Tuesday . The Oregon-born musician, 30, sat down with CNN to talk about his songwriting journey . Kearney: ""This record is about worlds colliding, being that far away from home""",0.3013698630136986,0.14084507042253522,0.24657534246575344
+NEWS_0006,"Actor Derek Mears takes on role of Jason in new ""Friday the 13th""
+Actor heard from producers that he was a popular casting choice .
+Of iconic role, Mears says he tried to ""definitely make it my own""","Actor Derek Mears stars as Jason Voorhees in new ""Friday the 13th"" movie . Mears: ""I've got a lot of daddy issues. No, I sound like a basket case. It's funny with acting -- we all wear masks in our normal life,"" Mears says .",0.345679012345679,0.17721518987341772,0.3209876543209877
+NEWS_0007,"The FBI reports nearly 3,200 account hijacking cases since 2006 .
+Online scam losses amounting to $264.6 million reported in 2008 .
+Facebook has automated systems that detect compromised accounts .
+MySpace.com creates blacklists of phony accounts .","Experts say cybercrooks are lurking just a mouse click away on popular social networking sites . Since 2006, nearly 3,200 account hijacking cases have been reported to the Internet Crime Complaint Center . Social networking sites show there is ample opportunity to find more victims .",0.2716049382716049,0.1518987341772152,0.1728395061728395
+NEWS_0008,"""Every three minutes"" statistic made Witherspoon feel ""vulnerable"" and ""scared""
+Oscar-winning actress: Young women are not exempt from the disease .
+Witherspoon emphasizes importance of early detection and regular screenings .", Reese Witherspoon: Every three minutes in the U.S. a woman is diagnosed with breast cancer . She says she wants to banish the myth that young women are not at risk for breast cancer. She says women in their 20s and 30s should have a clinical breast exam every three years .,0.24691358024691354,0.1265822784810127,0.19753086419753085
+NEWS_0009,"NEW: Officials say the death toll in grenade attack is up to 40 .
+President Felipe Calderon responds to attack via his Twitter account .
+Grenade attack reported at a casino in Monterrey, in northeastern Mexico .
+Up to 30 people thought trapped in the casino because of debris ."," NEW: Mexican President Felipe Calderon: ""With deep consternation, I express my solidarity with Nuevo Leon and the victims of this abhorrent act of terror and barbarism"" At least 40 people were killed and numerous others injured in a reported grenade attack at a casino in Monterrey, Mexico .",0.3870967741935484,0.15384615384615385,0.25806451612903225
+NEWS_0010,"Florence-born fashion designer Roberto Cavalli is known for his bright, sexy clothes .
+He is the grandson of Impressionist painter Giuseppe Rossi and the son of a tailor .
+His clothes are adored by celebrities like Gwyneth Paltrow and Victoria Beckham .
+Cavalli's extravagant lifestyle includes color-coordinated yacht, cars and helicopter ."," Roberto Cavalli's colorful creations are unabashed celebrations of the female form . Cavalli is adored by his celebrity clientele, who flaunt his creations on red carpets from Los Angeles to Sydney . His main line is sold in over 50 countries worldwide, along with",0.3191489361702128,0.08695652173913043,0.14893617021276598
+NEWS_0011,"Obama thanks youth for helping inspire, energize ""improbable journey""
+Obama says at military ball there is ""no greater honor"" than being commander .
+Michelle Obama wears silk chiffon Jason Wu gown with crystal rhinestones .
+Celebrities attending include Beyoncé, Jay-Z, Faith Hill ."," NEW: Beyoncé sings Etta James' ""At Last,"" from her role in ""Cadillac Records"" NEW: Michelle Obama's gown was designed by up-and-coming designer Jason Wu, 26 . NEW: ""It's thrilling. ... For a young designer, I couldn't ask for any more than this",0.20930232558139536,0.04761904761904762,0.11627906976744186
+NEWS_0012,"Senate Foreign Relations Committee hears testimony on quake-ravaged nation .
+Actor Sean Penn founded aid agency in Haiti .
+He and others urged U.S. donors to ask for transparency ."," Sean Penn's new film, ""Fair Game,"" will debut Thursday at Cannes . He was seated before the Senate Foreign Relations Committee as witness to an emergency . He called on lawmakers to demand transparency as the island nation moves forward in recovering from the massive earthquake .",0.35135135135135137,0.1111111111111111,0.18918918918918917
+NEWS_0013,"Here's how to squeeze the most performance out of your older computer .
+It may be your software that's slow, not your computer; check for updates .
+Move as many of your activities, such as e-mail, to the Web as possible .
+If you're still using Internet Explorer, stop! You're better off with a newer build of Firefox .","Chris Pirillo: No budget for a new computer in this recession? It's a common malady these days, he says . Pirillo says you don't have to settle for less than what yesterday's perfect computer can offer . If you use more than one computer on a regular basis, this is likely what you're doing",0.22413793103448276,0.03508771929824561,0.15517241379310345
+NEWS_0014,"Actor Robert Duvall first worked with Francis Ford Coppola 40 years ago .
+He starred in Oscar-winners ""The Godfather,"" and ""The Godfather: Part II""
+Immortalized ""I love the smell of napalm in the morning in ""Apocalypse Now""
+Duvall on Coppola: ""A talented maniac. No, not a maniac, a talented, driven guy"""," Robert Duvall starred in Francis Ford Coppola's ""The Godfather"" and ""Apocalypse Now"" The actor says he would have had another career with ""TheGodfather"" DuvAll talks about his relationship with the master movie-maker, Francis Ford",0.41379310344827586,0.1647058823529412,0.25287356321839083
+NEWS_0015,"Gary Coleman arrested in Utah County, Utah; actor had outstanding warrant .
+Coleman could get out of jail by posting $1,725 bail, police say .
+Police: Actor's home visited in response to civil disturbance call, but no criminal charges filed ."," NEW: ""He's still our guest here,"" a sheriff's spokesman says . Gary Coleman, 41, was arrested and booked without incident Sunday in the county jail in Spanish Fork, Utah . Police visited Coleman's Santaquin City, Utah, home Sunday in response to a civil disturbance call .",0.46511627906976744,0.11904761904761904,0.3488372093023256
+NEWS_0016,"Stuart Hughes is known for his expensive remakes of popular gadgets .
+Only two of these iPhone 4s will ever be made .
+The device has a price tag of 5 million pounds, or roughly $8 million ."," Stuart Hughes, the British jeweler known for his expensive remakes of popular gadgets, is at it again with a diamond-clad iPhone 4 . The handmade bezel contains approximately 500 individual flawless diamonds that total more than 100 carats . Only two of these will ever be",0.5249999999999999,0.33333333333333337,0.425
+NEWS_0017,"Luciano Pavarotti widely considered the greatest tenor of his time .
+The Italian's charisma and bravura style attracted a new audience to opera .
+Singer retired from staged opera in 2004; diagnosed with cancer in 2006 .", Luciano Pavarotti was one of opera's most adaptable and ebullient performers . His beaming charisma and bravura style captured the attention of the late-20th-century audience for opera . He sold millions of records and raised millions of dollars for charity through benefit concerts .,0.35443037974683544,0.1038961038961039,0.2531645569620253
+NEWS_0018,"Nigerian musician Femi Kuti is son of Afrobeat pioneer Fela Kuti .
+Inherited his father's passion for music and political activism .
+Nightclub in Lagos recently closed by authorities; remains politically outspoken ."," Femi Kuti is the son of Afrobeat pioneer and political activist Fela Kuti . The Nigerian musician is passionate about getting people to change their world as much as move their feet . Kuti's nightclub in Lagos, the New Afrika Shrine, had become a Mecca for West African music and creative expression .",0.4878048780487804,0.27499999999999997,0.31707317073170727
+NEWS_0019,"Harrison's star next to Hollywood headquarters of Capitol Records .
+Harrison, who died of cancer in 2001, is second Beatle with star after John Lennon .
+Some fans travel from as far as Liverpool, England for dedication of Harrison's star .
+Harrison penned many Beatles songs before launching successful solo career ."," George Harrison's widow: ""There's someone here from every important stage of George's life and career"" George Harrison, 58, becomes second Beatle with a Hollywood star . Harrison's first solo greatest hits collection -- ""Let it Roll: Songs by George Harrison"" -- will be released on June 16 .",0.32653061224489793,0.10416666666666667,0.22448979591836735
+NEWS_0020,"Oscar cancellation would have cost the industry an estimated $400m .
+Limo drivers, caterers, make-up artists would be among worst hit .
+Jewelry designers like Chopard generate $1m in publicity on Oscars night .
+Films which achieve success on the night can expect box office cash injection .", The writers strike would have cost Los Angeles and the industry if the Oscars were cancelled . It is estimated that having a celebrity pictured in an item of jewelry or an outfit can be worth $1m in publicity for a jeweler or fashion house . The prime candidate for a new lease of life at the box office is the Coen Brothers,0.33962264150943394,0.11538461538461538,0.24528301886792447
+NEWS_0021,"Actress Selma Blair wore huge prosthetic boobs for a John Waters movie .
+She's gained at least 15 pounds for her role on ""Kath and Kim""
+She considered Botox but says she doesn't have enough wrinkles for it yet .
+Blair experimented with three completely different looks in less than a year ."," Selma Blair, 36, says she has no fears when it comes to her hair or clothes . Blair says she works with hairstylists and makeup artists who ""have a vision"" Blair's signature look: ""A rosy cheek, a smudgy eye, a lot of mascara, and I love it!""",0.30303030303030304,0.041237113402061855,0.20202020202020202
+NEWS_0022,"Baz Luhrmann's early cinema style is known as ""The Red Curtain""
+A striking and highly visual and theatrical style exemplified in ""Moulin Rouge!""
+His new epic film ""Australia"" is a departure from this cinema style ."," Baz Luhrmann has produced a stunning and highly visual body of work that is loved and loathed in equal measures . His films have a tendency to suck the viewer up into a swirling vortex of lush imagery and a lavish production style . The trio of films, ""Strictly Ballroom,"" an adaptation of William Shakespeare's",0.33333333333333337,0.06818181818181818,0.26666666666666666
+NEWS_0023,"Mandy Moore's new album is ""Amanda Leigh,"" her given name .
+Moore has gone indie route with new album, happy to be on that path .
+Freshly married to Ryan Adams, singer looks forward to new things -- like metal?"," Mandy Moore's new album is called ""Amanda Leigh,"" which is her real name . Moore: ""I sort of started around the same time as a lot of my contemporaries, like the Britney Spearses and the Christina Aguileras of the world"" Moore: I feel like with the last two records, I",0.29545454545454547,0.16279069767441862,0.2727272727272727
+NEWS_0024,"American Medical Association Alliance wants films with smoking to be rated R .
+AMAA says that kids who watch smoking often turn to habit .
+Hollywood rating organization says smoking in movies has declined .", American Medical Association Alliance calls for R rating for any movie with smoking scenes . Group says smoke has been clearing from youth-rated movies . Motion Picture Association of America adds smoking scenes as factor in ratings two years ago .,0.4225352112676056,0.14492753623188406,0.3098591549295775
+NEWS_0025,"Natalie Cole underwent kidney transplant surgery Tuesday .
+Singer has been receiving kidney dialysis since September .
+Grammy-winning Cole scheduled a tour for CD ""Still Unforgettable"""," Natalie Cole has been receiving kidney dialysis three times a week since September . ""Ms. Cole's physicians have advised her to postpone her summer tour dates,"" publicist says . Concert dates will be announced soon for Cole's tour, which is in support of her CD, ""Still Unforgettable""",0.4444444444444445,0.22857142857142854,0.4166666666666667
+NEWS_0026,"Propofol, generic name of Diprivan, reportedly found in Michael Jackson's home .
+DEA spokesman: ""We've been looking into it for the past two years""
+Spokesman says inquiry hasn't been affected by singer's cardiac arrest death .
+Propofol is administered intravenously in operating rooms as a powerful anesthetic ."," DEA looking at designating sedative as a ""scheduled"" drug, which would tighten restrictions on its distribution and use . Propofol, known by the trade name of Diprivan, is administered intravenously in operating rooms as a powerful anesthetic and sedative . Drug maker, Teva Pharmaceuticals, voluntarily recalled",0.3870967741935484,0.24175824175824176,0.30107526881720426
+NEWS_0027,"Half-Mongolian, half-Chinese musician mixes ethnic influences with chill-out beats .
+First album sold over 2 million copies in South East Asia .
+Deemed too controversial by Glastonbury Festival and dropped from line-up .","New age chanteuse Sa Dingding is one global export that echoes the Beijing Olympic fantasy of ""One World. One Dream"" Born in Inner Mongolia in 1983, she spent three years until the age of 6 with her grandmother, living in northern China . Her first album sold 2 million copies in Southeast Asia, and she has appeared",0.22222222222222224,0.11363636363636363,0.22222222222222224
+NEWS_0028,"Many domestic airlines have begun offering Wi-Fi Internet access aboard planes .
+Provider Aircell expects to have 1,200 planes equipped by the end of this year .
+Another company, Row 44, says it will have trans-Atlantic Wi-Fi in the third quarter ."," Wi-Fi on domestic carriers' planes is limited to flights within North America . Gogo, which operates by transmitting signals from ground-level towers, functions across the U.S. and up to about 300 miles offshore . Aircell's Gogo service will cover the entire continent within a year or two, CEO says .",0.2553191489361702,0.021739130434782608,0.1702127659574468
+NEWS_0029,"Microsoft founder Bill Gates talks to CNN's Wolf Blitzer .
+Gates says Obama should craft a wide-ranging stimulus package .
+He also wants Obama to increase investments in education, technology .
+""Spending is the only way we'll ever come out of this downturn,"" he says ."," Microsoft founder Bill Gates spoke exclusively with CNN's Wolf Blitzer on Wednesday and Thursday . Gates: ""Clearly we need a stimulus that doesn't undermine the incentive for businesses to be careful about their spending"" Obama has pledged to double the United States' annual investment in foreign aid to $50 billion by end of his first term .",0.39215686274509803,0.14,0.31372549019607837
+NEWS_0030,"When you're inside the theater, the whole show seems to work, and you feel part of it .
+Stagehands guide the changing of the sets during the commercial breaks .
+Seeing five Best Actors presenting Oscars on the same stage was pretty amazing .
+The Oscars can still astonish -- they still know how to put on the big musical number .", CNN's Jay Kernis reports on what it was like inside the Kodak Theatre at the Academy Awards . The show was best when it demonstrated that Hollywood can still do what it has always done well . The Oscars can still astonish: They still know how to put on,0.4150943396226415,0.23076923076923075,0.32075471698113206
+NEWS_0031,"Developing a personal brand can be a great strategy for job seekers .
+A personal brand is what makes you stand out .
+Decide what you want your personal brand to say about you .
+The Internet is a good place to establish both visibility and a strong personal brand .","Developing a personal brand can be a great get-ahead strategy for both job seekers and those looking to advance careers . ""A personal brand is what you stand for and what makes you special,"" says Dan Schawbel, author of ""Me 2.0: 4 Steps to Building Your Future""",0.5894736842105263,0.3655913978494624,0.4842105263157895
+NEWS_0032,"Wu-Tang producer: Attempted murder conviction also could have derailed band .
+Rapper/producer/actor RZA talks of forming Wu-Tang Clan in upcoming memoir .
+RZA: Ol' Dirty Bastard made son watch him do drugs before 2004 fatal overdose .
+Book cites lessons from Christianity, Islam, numerology, kung fu, chess ."," Wu-Tang Clan's chief producer, RZA, writes in his forthcoming memoir, ""The Tao of Wu"" RZA was acquitted on an attempted murder charge that could have put him behind bars for eight years . RZA says if he had been imprisoned or if Method Man had been killed, the band never would have formed",0.33333333333333337,0.08,0.17647058823529413
+NEWS_0033,"James Cameron's ""Avatar"" had its world premiere in London yesterday .
+The 3D sci-fi epic goes on public release worldwide on December 18 .
+Read what the critics have said said so far ."," ""Avatar"" uses tailor-made technology to create the most astonishing visual effects yet seen on screen . It's an unprecedented marriage of technology and storytelling which is on the whole remarkably successful . The state-of-the-art 3D technology draws us in, but it is the vivid weirdness of Cameron's lurid",0.21176470588235294,0.024096385542168676,0.11764705882352941
+NEWS_0034,"Minnesota couple instant stars after YouTube wedding video goes viral .
+Dancing wedding party garners fans, draws media attention .
+Fellow YouTube star says attention ""can be a bit much to handle""
+Popularity of video has also sparked interest in the Chris Brown tune featured ."," YouTube video shows Minnesota couple dancing down the aisle to Chris Brown's ""Forever"" Video went viral after the newlyweds posted it on YouTube . Minnesota residents Kevin Heinz and Jill Peterson flew to New York to appear on ""Good Morning America"" ""New York is cutthroat. That's what we've learned,""",0.276595744680851,0.043478260869565216,0.1276595744680851
+NEWS_0035,"Academy sues Arizona-based company over sales of Oscar packages .
+Tickets to lavish movie awards show cannot be transferred or sold, Academy says .
+Package includes four tickets to 81st annual Academy Awards, L.A. hotel stay .
+Selling tickets could become a security issue, according to lawsuit .", The Academy of Motion Picture Arts and Sciences is suing an Arizona-based company . Tickets to the 81st annual Academy Awards will be held on February 22 from Hollywood's Kodak Theatre . Selling tickets could become a security issue that could bring celebrity stalkers or terrorists to the event .,0.4421052631578947,0.2580645161290323,0.37894736842105264
+NEWS_0036,"""The Haunting in Connecticut"" had a successful opening weekend at box office .
+Virginia Madsen, who stars in film, likes ""things that go bump in the night""
+Madsen, best known for ""Sideways,"" took motherly role over young co-stars ."," ""The Haunting in Connecticut"" earned $23 million to finish No. 2 at the box office . Virginia Madsen plays Sara Campbell, a mother who moves her family into an old house in Connecticut . ""I like things that go bump in the night, and scary things that are fun,"" she says .",0.45977011494252873,0.3058823529411765,0.43678160919540227
+NEWS_0037,"The soundtrack to the film is for those hardcore fans .
+There's no ""Jeremy,"" ""Daughter"" or ""Even Flow"" here .
+The emotional high point may be ""Crown of Thorns,"" from a gig in 2000 ."," The soundtrack to the film -- which contains that ""Better Man"" -- is for those hardcore fans . There is a gorgeous demo of ""Nothing as It Seems"" from 1999, a demo of the 1990 Temple of the Dog track ""Say Hello 2 Heaven"" and an early version of ""Alive"" from Pearl Jam's second",0.3764705882352941,0.21686746987951808,0.32941176470588235
+NEWS_0038,"Montalban's health was deteriorating, but he ""died peacefully"" in his home .
+Montalban rose to fame as one of MGM's most visible Hispanic actors in 1950s .
+The Mexican-born actor was best known for his roles on ""Fantasy Island,"" ""Star Trek""
+Montalban was dedicated to changing Hollywood's stereotypes of Latinos ."," Ricardo Montalban, 88, was in deteriorating health over the past several days . He ""died peacefully"" at his home, son-in-law Gilbert Smith says . He rose to prominence as one of the most visible Hispanic actors in post-war Hollywood in 1950s and 1960s . His star grew as he took",0.49019607843137253,0.21999999999999997,0.4117647058823529
+NEWS_0039,"The Spanish actor said he's excited about the role .
+""So to play that is going to be fun,"" Bardem said .
+""I cannot give you many details,"" he said ."," Javier Bardem confirmed that he would be playing the bad guy in ""Bond 23"" ""I am very excited. So to play that is going to be fun,"" he said . ""They chose me to play this man, but I cannot give you many details""",0.5833333333333334,0.4,0.5
+NEWS_0040,"Google announces Google Voice, a phone service over the Internet .
+The service offers ""speech-to-text"" transcriptions of voice messages .
+Head of Google Voice: company plans to offer service for free .
+Public users sign up for service starting in ""a number of weeks"""," Google Voice is a new version of the GrandCentral technology Google acquired in July 2007 . The new version could let people centralize telephone services, screen their calls, and listen to voice mail over the Web . Google now uses its speech-to-text technology to transcribe voice mail, making it possible to search for particular words",0.3673469387755102,0.08333333333333333,0.24489795918367344
+NEWS_0041,"Troubled singer found not guilty of hitting woman at charity ball in September .
+Amy Winehouse pleaded not guilty to the charge of common assault in March .
+Winehouse's divorce from Blake Fielder-Civil should be made final next month .", London court clears singer Amy Winehouse of assault after two-day trial . Singer accused of hitting a woman at a charity ball last year . She had pleaded not guilty to the charge of common assault . Winehouse and her husband Blake Fielder-Civil are divorcing .,0.5542168674698795,0.34567901234567905,0.48192771084337344
+NEWS_0042,"One high-profile film producer has fired hundreds of personal assistants .
+Naomi Campbell's treatment of her employees has landed her in court .
+And would you really want to answer to Simon Cowell or Al Capone?","New grads are looking for jobs near their college or hometowns . Indianapolis, Philadelphia and Cincinnati are the top cities for new grads . The list is based on the ranking of the top U.S. cities with the highest concentration of young adults .",0.12820512820512822,0.0,0.07692307692307691
+NEWS_0043,"Internet-connected TV is idea that's finally ripe for consumer adoption .
+In past, Steve Jobs has denied that Apple was planning to enter the cell phone or tablet markets .
+His deflections are smart tactic that allows company to fool competitors ."," Apple CEO Steve Jobs rebuffed the suggestion that Apple will revolutionize TV in the same way it has reshaped the music industry . The time is right for Apple to tackle the TV, and the company's re-entry into that market is a no-brainer . Apple's iTunes is an obvious starting point to turn the TV into",0.32323232323232326,0.041237113402061855,0.16161616161616163
+NEWS_0044,"Joshua Radin's new album is ""Simple Times""
+Radin, a friend of Zach Braff, had songs played on ""Scrubs""
+Ellen DeGeneres liked one tune, asked Radin to play her wedding .","Joshua Radin's new album, ""Simple Times,"" is about ""my whole life"" ""Wedding singers play covers and they're usually Motown songs,"" he says . ""I don't know any Al Green,"" Radin says, but he's a friend of Zach Braff . ""He's a very close",0.4473684210526315,0.24324324324324326,0.34210526315789475
+NEWS_0045,"Nanci Griffith's new album is ""The Loving Kind""
+Grammy-winning singer with crystalline voice had long dry stretch in '00s .
+Election of Obama, better health has her in upbeat mood ."," Nanci Griffith is best known for her 1993 album, ""Other Voices, Other Rooms"" She says she's ""fed up with negativity"" and was revitalized by the election of Barack Obama . Griffith: ""It was nice to focus on things outside of my body""",0.3287671232876712,0.056338028169014086,0.1917808219178082
+NEWS_0046,"NEW: Doctor was ""present during the search of his home,"" attorney says .
+Investigators search Dr. Conrad Murray's Las Vegas home, office .
+Murray allegedly gave Jackson propofol in the 24 hours before death, source says .
+Source close to family says doctor administered drug believed to have killed singer ."," NEW: Source says Dr. Conrad Murray administered powerful drug that authorities believe killed Jackson . NEW: Investigators left Murray's Las Vegas home about noon, taking cell phones and a computer hard drive . Source: Murray allegedly gave Jackson anesthetic propofol in 24 hours before he died . Police have interviewed Murray twice since Jackson's death .",0.5294117647058824,0.26,0.3725490196078432
+NEWS_0047,"Colorado officer uses cell-phone monitoring software to catch sexual predators .
+Investigator has made at least 44 arrests with the help of the service .
+Software is increasingly popular with parents as more kids carry cell phones .
+Service provides parents with online record of kids' calls, texts and shared photos ."," As more kids carry cell phones, some parents use software to monitor their kids' calls and texts . Programs such as My Mobile Watchdog and Mobile Spy are becoming increasingly popular with parents . The services help them protect their kids against predators and reduce ""sexting""",0.49462365591397844,0.24175824175824176,0.23655913978494622
+NEWS_0048,"Susan Atkins held Sharon Tate down and stabbed the pregnant actress 16 times .
+Parole hearing was the 13th for Atkins, who is battling terminal brain cancer .
+The panel set another hearing for Atkins in three years ."," Susan Atkins, 61, is battling terminal brain cancer . Atkins, who stabbed Sharon Tate to death more than 40 years ago, was denied parole Wednesday . Atkins was 21 when she and others participated in a two-night rampage that left seven people dead and terrorized Los Angeles",0.4390243902439025,0.17500000000000002,0.21951219512195125
+NEWS_0049,"The International Animated Film Festival in Annecy is the Cannes of animation .
+Festival highlights the best in animation, from student work to studio shorts .
+Experts say the future of animation is on mobile devices ."," Annecy has hosted the International Animated Film Festival for almost half a century . The French town has hosted a wide variety of different types of animation and budgets . Stop-motion is close to the heart of director Tim Burton, who employed the technique on ""Corpse Bride""",0.375,0.1282051282051282,0.3
+NEWS_0050,"""Sex and the City"" actress Kristin Davis says women need strong shoes .
+The actress says her new fashion line fits different types of bodies .
+She says ""Sex"" movie sequel will have characters spending less .
+Green will be the hot color in the latest movie, Davis says .","Kristin Davis is the latest celebrity to jump on the clothing label bandwagon, designing a line for Belk department stores . ""Sex and the City"" costume designer Patricia Field dressed the characters in haute couture as they skipped down the streets of New York City . All of the pieces in Sarah Jessica Parker's clothing line Bitten",0.29411764705882354,0.09999999999999999,0.17647058823529413
+NEWS_0051,"By 2020, experts believe virtual worlds will be widespread .
+Online worlds could replace Facebook as most popular Internet phenomenon .
+Experts say young users could lead spartan lives offline, luxurious lives online .
+But Star Trek-style fully-interactive holodecks still some way off .","Experts say the use of virtual worlds like Second Life may be widespread by 2020 . Experts predict that logging on to a luxury lifestyle could be attainable for all of us . With over 30 million users worldwide, 8.5 million photos uploaded each day and 15 billion page views a month, Facebook is undoubtedly the Internet's flavor of",0.2772277227722772,0.10101010101010101,0.15841584158415842
+NEWS_0052,"NEW: ""Smile Pinki"" wins best short documentary Oscar .
+Pinki Sonkar was born with cleft lip; her family in India couldn't afford surgery .
+Smile Train charity provided operation; 4 million children worldwide have cleft lips .
+Pinki, once an outcast because of the deformity, will attend the Oscar ceremony ."," India-based film ""Smile Pinki"" is up for an Oscar for best short documentary . Pinki Sonkar, 8, was born with a cleft lip and had to live with it and suffer the social consequences . The film's director is Megan Mylan, who has won several awards but not an Oscar .",0.3673469387755102,0.14583333333333334,0.3061224489795918
+NEWS_0053,"Yusuf, formerly Cat Stevens, has new album: ""Roadsinger""
+After big success in '70s, he converted to Islam, shut down career for a time .
+""I'm very much an optimist,"" Yusuf says ."," Yusuf, formerly known as Cat Stevens, played for just over an hour on stage at El Rey Theater last week . Yusuf converted to Islam at height of popularity in 1977, when he changed his name from Cat Stevens to Yusuf Islam . He was famously denied entry into the United States in 2004 after his name appeared on",0.29545454545454547,0.09302325581395349,0.1818181818181818
+NEWS_0054,"Michael Jackson to be buried Thursday, September 3, at Forest Lawn .
+Singer originally scheduled to be buried August 29; no reason given for change .
+Jackson movie drawing on concert footage will open October 28 ."," Michael Jackson's burial will be at Glendale Forest Lawn Memorial Park on Thursday, September 3 . Private ceremony will still take place at the park in Glendale, California . Jackson was scheduled to be laid to rest August 29, on what would have been his 51st birthday .",0.45,0.17948717948717946,0.325
+NEWS_0055,"This is the second best opening ever for a movie fronted by Dwayne Johnson .
+""Watchmen"" dropped a hefty 67 percent from its big opening last weekend .
+""The Last House on the Left"" came in at No. 3 with an anticipated $14.7 million .
+See what other movies made the box office top 10 ."," ""Race to Witch Mountain"" won the weekend box office in fine fashion, grossing $25 million . That's the second best opening ever for a movie fronted by Dwayne Johnson alone . ""Watchmen"" dropped a hefty 67 percent from its big opening last weekend to gross $18.1 million .",0.58,0.4693877551020408,0.4999999999999999
+NEWS_0056,"Grammy-winning trumpeter long fought heart disease, spokesman says .
+Hubbard played with major jazz figures including Art Blakey and Herbie Hancock .
+Hubbard was named a National Endowment for the Arts Jazz Master in 2006 .","Freddie Hubbard died Monday morning in Sherman Oaks, California, after a long battle with heart disease . Hubbard made a series of funk- and fusion-oriented albums, such as the 1970 hit ""Red Clay"" He had been hospitalized since suffering a heart attack the day before Thanksgiving . Hubbard was named a National Endowment for the",0.34090909090909094,0.18604651162790697,0.29545454545454547
+NEWS_0057,"Quentin Tarantino's new film, ""Inglourious Basterds,"" playing Cannes .
+Heath Ledger's last film, ""The Imaginarium of Dr. Parnassus,"" also to be shown .
+Pixar's ""Up"" to open famed French festival, which begins Wednesday .","Quentin Tarantino's ""Inglourious Basterds"" and ""Taking Woodstock"" among films in competition for Palme d'Or . Heath Ledger's last film, ""The Imaginarium of Dr. Parnassus,"" will be",0.5483870967741935,0.39999999999999997,0.5161290322580646
+NEWS_0058,"Actress said she had sexual relationship with her father for years .
+Experts: Incest is one of the most under-reported and least discussed crimes .
+Real healing after incest is possible, Phillips says .","An anti-sexual assault hot line has seen an 83 percent increase in activity on its online hot line . Mackenzie Phillips said incest survivors are ""incredibly underrepresented"" A quarter of the 60,000 sexual assault cases reported in 12 states in 2000 were perpetrated by family members .",0.1772151898734177,0.025974025974025976,0.12658227848101267
+NEWS_0059,"Drew Olanoff has placed his Twitter username up for auction to benefit charity .
+Drew Carey said he'd donate $1 million if he gets 1 million followers by Dec. 31 .
+Olanoff never expected his auction to get attention from other Drews like Carey .
+The L.A.-based blogger is also behind the @BlameDrew'sCancer username ."," Drew Olanoff, a cancer-fighter and blogger, is auctioning off his Twitter username ""@drew"" to benefit the LiveStrong foundation . Since Tuesday, its value has already been raised to $1 million, thanks to that other Drew -- last name Carey . Olan Offers $100,000 if his Twitter followers totaled 100,",0.44660194174757284,0.13861386138613857,0.2524271844660194
+NEWS_0060,"""Angels & Demons,"" new Ron Howard film, based on Dan Brown novel .
+Brown's ""Da Vinci Code"" was controversial book made into controversial film .
+Howard believes Vatican holds grudge; priest says Church barely aware of ""Angels"""," ""Angels & Demons"" director Ron Howard says there was ""residual antagonism from 'The Da Vinci Code"" Vatican officials ignored suggestions that the church was offended by the film . Howard says he tried to reach out to the Catholic Church to see early rough cuts . ""I think the church's attitude has been",0.32558139534883723,0.11904761904761905,0.2790697674418605
+NEWS_0061,"On ""Follow Friday,"" CNN.com recommends Twitter feeds on a news topic .
+This week's topic: The U.S. debate over health care .
+SusannahFox comments on health care and social media .
+kevinmd posts insights from his life as a physician .", CNN.com highlights five recommended Twitter feeds about a hot topic in the news . Sen. Olympia Snowe of Maine doesn't appear to be on Twitter . PolitiFact: The health care reform debate has been nothing if not confusing .,0.33333333333333337,0.10526315789473684,0.28205128205128205
+NEWS_0062,"Heidi Newfield is up for five Academy of Country Music Awards .
+Newfield pursuing solo career after being lead singer of Trick Pony .
+Singer doesn't want to be a diva but takes advice about not being so nice .","Heidi Newfield says she considers herself an underdog at Sunday's Academy of Country Music Awards . Newfield was the lead singer of the honky-tonk trio Trick Pony for 10 years . Her soulful debut album, ""What Am I Waiting for,"" was released in August to stellar reviews .",0.3529411764705882,0.21686746987951808,0.32941176470588235
+NEWS_0063,"Sketchbook of Pablo Picasso drawings missing from Paris museum, officials say .
+Special unit that combats the trade in stolen cultural artifacts was notified .
+The artist used the sketchbook between 1917 and 1924 .
+Description: Red varnished cover with ""Album"" inscription, 6-by-9 inches ."," Pablo Picasso sketchbook with 33 pencil drawings disappeared from a locked glass case in a museum in Paris . Police were immediately alerted, as was a special unit that combats the trade in stolen cultural artifacts . The sketchbook has a red varnished cover with the word ""Album"" inscribed on it in gold lettering",0.5473684210526316,0.3010752688172043,0.4631578947368421
+NEWS_0064,"Peter Cincotti had hit jazz album, now has album of pop songs .
+Native New Yorker insisted Angeleno David Foster come to N.Y. to produce .
+Cincotti started playing piano when he was 3; an early influence was Jerry Lee Lewis ."," Peter Cincotti's new album ""East of Angel Town"" was released last week on Warner Bros. Records . Producer David Foster: ""He just turned the whole thing 180 and wrote these incredible pop songs"" ""I was just playing what I love then, and I'm playingWhat I love now,"" he says .",0.33333333333333326,0.06818181818181818,0.17777777777777778
+NEWS_0065,"Singer Mary J. Blige stars in new Tyler Perry film ""I Can Do Bad All By Myself""
+Film allows Blige to test acting chops and sing as well as owner of club .
+""I was definitely nervous, because acting is not my first profession,"" Blige says .
+Blige: Movie is about redemption, saving yourself and healing from wounds ."," Mary J. Blige stars in new Tyler Perry film ""I Can Do Bad All By Myself"" Blige: ""I'm definitely gonna pursue this as a profession, acting"" ""I got all the lyrics for my songs from my life so and other people's",0.5050505050505051,0.3092783505154639,0.4444444444444445
+NEWS_0066,"Larry was 9 years old when his father died of a heart attack in 1943 .
+Larry says he has blocked much of that day from his memory .
+He recalls a police officer broke the news, then took him to see a movie .
+Larry refused to attend funeral though he and his father were extremely close ."," Larry King: I was walking home from the library with nine books when I was nine years old . He remembers seeing three squad cars in front of his apartment building in Brownsville, Texas, in 1943 . He says he was more befuddled than anything else when he got home that day . Larry King's life in",0.34545454545454546,0.07407407407407407,0.21818181818181817
+NEWS_0067,"Maintaining Apple's rapid growth will be a big challenge for new CEO Tim Cook .
+Cook must keep driving product development and Apple's logistics revolution .
+Apple could end up shipping more than 175 million gadgets this year .
+Cook is expected to unveil a new iPhone Tuesday in California ."," Tim Cook is expected to help unveil Apple's latest iPhone at its first big event since Steve Jobs stepped aside in August . Cook will no doubt be scrutinized for how he fulfills his new role as chief pitchman for Apple's products . The consumer shift toward cheaper, portable computers means creating and selling an ever-increasing number of",0.37037037037037035,0.11320754716981132,0.14814814814814814
+NEWS_0068,"Jack Wagner discovered earlier this month that he has a long-lost 23-year-old daughter .
+The girl, named Carrie, introduced herself to Wagner backstage at a concert .
+Reports say Carrie, who was given up for adoption as an infant ."," Jack Wagner, 52, discovered earlier this month that he has a long-lost daughter from a ""fling"" he had with the girl's mother in the late 1980s . The girl, named Carrie, introduced herself to Wagner backstage at a November 4 concert in Boca Raton, Florida . Less than two weeks after",0.5494505494505494,0.449438202247191,0.5494505494505494
+NEWS_0069,"Watch continuing earthquake coverage on CNN .
+Read Twitter feeds to stay up to date on the latest in Haiti .
+Read CNN.com's complete special coverage of the latest developments in Haiti ."," Sixteen members of the joint NYPD-FDNY Urban Rescue Team are attempting to rescue five people trapped alive in a collapsed grocery store in Port-au-Prince . A woman trapped under the rubble of a bank is sending text messages pleading for help, authorities say . The top two U.N. officials at the U.",0.13953488372093023,0.02380952380952381,0.09302325581395349
+NEWS_0070,"Save the Children spokesman: Children should be raised by extended family .
+Celebrities, groups best help children by supporting their communities, he says .
+Madonna is trying to adopt a girl from Malawi .", Madonna is in Malawi this week attempting to adopt a second child from the African nation . Save the Children UK has urged Madonna to rethink her adoption of a girl from Malawi . A children's group is saying that she should not adopt and that the child would be better off in her own country . Madonna has brushed off questions from,0.34782608695652173,0.17777777777777776,0.21739130434782608
+NEWS_0071,"Joan Rivers wins this season's ""Celebrity Apprentice""
+Rivers goes up against poker champion Annie Duke in finale .
+Duke raises more money at her event, but Rivers is able to attract more celebrities .
+The victory means $250,000 for Rivers' charity ."," Joan Rivers beat out 15 other contestants to win this season's ""Celebrity Apprentice"" The 75-year-old dynamo beat out poker champion Annie Duke in Sunday night's finale . The victory means $250,000 for Rivers' charity: God's Love We Deliver .",0.5476190476190476,0.41463414634146345,0.5238095238095238
+NEWS_0072,"Author: John Lennon never meant ""more popular than Jesus"" comment to offend .
+Lennon never actually retracted the controversial remark .
+Vatican newspaper paid tribute to the Beatles on 40th anniversary of ""White Album""
+Beatles author says band were a ""spiritual force"" themselves ."," Vatican newspaper paid tribute to the Beatles on the 40th anniversary of the release of the ""White Album"" John Lennon said in 1966 that the Beatles were then ""more popular than Jesus"" Comments prompted outrage in the United States . Author: Lennon was surprised by the storm his comment generated .",0.5555555555555556,0.3409090909090909,0.3333333333333333
+NEWS_0073,"NEW: Blagojevich declines comment, says ""I'm enjoying Disney World with my kids""
+Blagojevich faces up to 20 years in prison for each of 15 most serious charges .
+Officials going after his home, saying he bought it with illegally-earned money .
+Charges against him include wire fraud, making false statements .","Former Illinois Gov. Rod Blagojevich indicted on 16 felony counts by a federal grand jury . Indictment charges BlagoJevich and some of his closest aides and advisers with a wide-ranging ""scheme"" Indictments include racketeering, conspiracy, wire fraud and making false statements to investigators . In video shot at",0.288659793814433,0.06315789473684211,0.2268041237113402
+NEWS_0074,"Star's sister Janet will help open MTV awards show, in celebration of his life .
+Fans can also preview documentary online .
+Film will be shown worldwide for two weeks starting in October ."," NEW: Janet Jackson ""will help open the entire show to honor Michael's celebrated career,"" MTV says . ""Michael Jackson's This Is It"" trailer makes its big screen debut September 18 with the Sony Pictures Animation release of ""Cloudy With a Chance of Meatballs"" Jackson documentary will run in theaters worldwide for just two",0.3488372093023256,0.07142857142857142,0.27906976744186046
+NEWS_0075,"Films full of life-affirming moments include ""Casablanca,"" ""Silent Running""
+""It's a Wonderful Life"" tops list from ""The Screening Room""
+List by no means complete; send us yours ."," This month's Screening Room picks our top ten life-affirming moments from the movies . ""It's A Wonderful Life"" sees do-gooder George Bailey (Jimmy Stewart) pulled back from the brink of despair by wannabe angel Clarence . ""The Shawshank Redemption"" is a timely reminder of how one man's",0.379746835443038,0.20779220779220778,0.27848101265822783
+NEWS_0076,"Saudi king overturns journalist's sentence of 60 lashes, two-year travel ban .
+Female journalist worked on controversial TV show on sexual taboos .
+Saudi man was sentenced to five years in jail, 1,000 lashes for his role in show .
+Human Rights Watch.calls on King Abdullah to overturn that sentence too ."," Saudi Arabia's King Abdullah has been called ""The King of Hearts"" by many of his countrymen . He used his power to overturn a criminal court sentence of 60 lashes and a two-year travel ban . Rosanna al-Yami was sentenced for her work on an episode of the television show ""A Thick Red Line",0.4299065420560747,0.19047619047619044,0.2803738317757009
+NEWS_0077,"EMI, the music label that owns studios, says it's holding talks for revitalizing them .
+Composer Andrew Lloyd Webber had expressed interest in buying studios .
+Beatles made studios famous with album ""Abbey Road""
+Much of Britain's best known music of 20 century has been recorded there ."," The studios became world famous when the Beatles were photographed crossing the road there for their album ""Abbey Road"" The Beatles recorded ""All You Need is Love"" and numerous other songs there . The studios are not for sale, the music label that owns them says .",0.3695652173913044,0.1333333333333333,0.1739130434782609
+NEWS_0078,"Benicio Del Toro stars in ""Che,"" a biopic of the Latin American revolutionary .
+His performance is generating Oscar buzz in Hollywood .
+Directed by Steven Soderbergh, the two-part film is more than four hours long .
+Del Toro on Che: His life ""is what movies are made of"""," Benicio Del Toro stars as revolutionary Ernesto ""Che"" Guevara in Spanish-language biopic . Del Toro: ""I have to say it probably is the most difficult movie I've ever made, and I've made a few"" Del Toro says he had to start with the man himself rather than invent a character",0.3434343434343434,0.08247422680412371,0.2222222222222222
+NEWS_0079,"Heidi Pratt was rushed to a hospital in Costa Rica for undisclosed illness .
+Pratt is currently appearing on ""I'm a Celebrity... Get Me Out of Here""
+Pratt had blamed ""the devil"" for wanting to leave show earlier in week ."," Heidi Pratt was taken to a hospital for an undisclosed illness, her publicist says . Pratt has been competing on NBC's ""I'm a Celebrity ... Get Me Out of Here"" Pratt and her husband, Spencer, tried to quit the show earlier in the week .",0.6428571428571429,0.3902439024390244,0.6190476190476191
+NEWS_0080,"Paul Shaffer: The David Letterman viewers see on air is who he really is .
+Shaffer's new memoir has stories of ""Saturday Night Live,"" Letterman .
+Shaffer was offered chance to play Jerry Seinfeld sidekick at one point .
+Bandleader legendary for his ""Celebrity Seders"""," Paul Shaffer's new memoir, ""We'll Be Here for the Rest of Our Lives: A Swingin' Showbiz Saga"" Shaffer co-wrote the hit disco song ""It's Raining Men"" He says David Letterman is ""very transparent on the air and you can see exactly what he's like""",0.3695652173913043,0.11111111111111112,0.1956521739130435
+NEWS_0081,"Jamal Bana had been missing for months; family learns of his death via Internet .
+Death is part of wider federal inquiry of terror recruiting by Somali group in U.S.
+Imam of Minneapolis mosque says terror recruiters are not at his mosque .
+Two men charged in U.S. with providing material support to terrorists ."," Jamal Bana, 20, had been missing for months from his Minneapolis home . His death is part of a sweeping federal investigation into a recruiting effort in the United States . More than a dozen young men of Somali descent have disappeared from the Minneapolis area in recent months .",0.4158415841584158,0.18181818181818182,0.35643564356435636
+NEWS_0082,"Michelle May, an American and Irish national, had been to Iran before .
+Basij picked up May after she looked at news at an Internet cafe .
+May: 'I immediately started screaming, saying no, no, no'"," Michelle May, an American and Irish national, was detained and forced to leave Iran . May says she felt a real need to be there with her friends, and wanted to be a part of history . ""I had been there two times before, and I feel very connected to the country and the people there,"" she says .",0.35555555555555557,0.1590909090909091,0.28888888888888886
+NEWS_0083,"NEW: At concert, Michelle Obama urges young people to get involved now .
+Concert features the Jonas Brothers, Miley Cyrus, Bow Wow and Demi Lovato .
+Billy Ray Cyrus, Keke Palmer and Usher make introductions .
+Did you miss the show? It's available later on Disney.com .","Michelle Obama calls on young people to play a part in their country's future now . Thousands of kids danced and yelled in Washington's Verizon Center . Miley Cyrus, Demi Lovato, Bow Wow, the Jonas Brothers and others performed . Michelle Obama: ""Are we ready to go?""",0.4175824175824176,0.1797752808988764,0.24175824175824176
+NEWS_0084,"Director Antoine Fuqua is filmmaker behind CNN's ""From MLK to Today""
+Fuqua discusses life, experiences with racism and the hope Barack Obama brings .
+Fuqua, director of ""Training Day,"" compares Obama with Denzel Washington .
+Fuqua's latest feature-length project, ""Brooklyn's Finest,"" screened at Sundance fest ."," Antoine Fuqua: ""From MLK to Today"" chronicles America's civil rights journey from the Rev. Martin Luther King Jr. to Barack Obama . Fuqua, 43, says he didn't believe he would see an African-American president in his lifetime . ""Brooklyn's Finest"" airs at 7 p.m.",0.3191489361702128,0.15217391304347827,0.2978723404255319
+NEWS_0085,"EW: ""The Proposal"" is a top-notch romantic comedy .
+Movie adheres to formula, but it's well done, very funny .
+Casting is perfect, script delivers ."," ""The Proposal"" is a traditional romantic comedy from the 1940s and '50s . Sandra Bullock is the shrew, Margaret, a pitiless, high-powered New York book editor . Ryan Reynolds is Andrew, her put-upon foil of an executive assistant, a younger man who accepts abuse .",0.2028985507246377,0.11940298507462685,0.2028985507246377
+NEWS_0086,"Complaints about iPhone 4S battery life mount .
+Some iPhone owners say their batteries drain much faster than advertised .
+Apple has not publicly acknowledged the concerns .
+Comments on a post on Apple's support forums go for 185 pages .", The iPhone 4S was released on October 14 to great fanfare and record sales . But complaints about the phone's battery life haven't reached the fevered pitch that last year's iPhone 4 release . The company has not commented publicly about the battery problems .,0.36144578313253006,0.09876543209876544,0.21686746987951808
+NEWS_0087,"Brad Paisley fell off stage during a performance in South Carolina .
+Singer says he was ""running fast,"" tripped and took a tumble .
+After being treated at a local hospital, he tweeted he was fine, just ""very bruised""","Brad Paisley was on the final note of an encore finale, a song titled ""Alcohol,"" when he fell . He was examined at Medical University of South Carolina Hospital in Charleston . ""And I mean freaking hard,"" he wrote on Twitter . ""Nothing broken, had a ct scan all is okay!""",0.3764705882352941,0.07228915662650602,0.18823529411764706
+NEWS_0088,"Third Day is first Christian rock band to make cover of Billboard .
+The musicians are determined to give fans ""a good value""
+New tour for Grammy-winning band begins March 5 .","Third Day has earned praise from mainstream publications but is still pigeonholed as ""Christian rock"" The Atlanta, Georgia-based band has won three Grammy Awards and an American Music Award . The band is also enjoying an increase in fame. In June, they became the first",0.2631578947368421,0.05405405405405406,0.21052631578947367
+NEWS_0089,"The killer of ""Harry Potter"" actor jailed for life, must serve at least 20 years .
+Karl Bishop, 22, attacked Rob Knox with 2 knives in southeast London last May .
+Knife crime in Britain is political hot topic due to spate of recent killings ."," Karl Bishop sentenced to life in prison for killing Rob Knox and four of his friends in London last May . Judge: ""You are at present a highly dangerous man"" Knox, 18, had rushed out of the bar after he heard Bishop had threatened his younger brother . He ended up being stabbed five times, once in a main artery.",0.3366336633663366,0.08080808080808081,0.1782178217821782
+NEWS_0090,"A hacker allegedly broke into a Twitter administrator's personal e-mail account .
+The hacker stole Twitter financial documents and leaked them to several blogs .
+Web is abuzz with opinions on the hacking's impact and the ethics of posting the info .
+Twitter says it is seeking legal counsel on the matter ."," A Twitter employee's personal e-mail account was hacked by a hacker, Twitter says . Security experts say it's best for users to create new passwords for each of their online accounts . Twitter co-founder says passwords should be complicated, combining letters, numbers and symbols.",0.36734693877551017,0.16666666666666666,0.2653061224489796
+NEWS_0091,"Celebrities, statesmen gather in London to celebrate Mandela's 90th birthday .
+Mandela at outdoor concert in his honor in London's Hyde Park .
+Crowd of 46,664 sing ""Happy Birthday"" led by Will Smith .
+Performers include Amy Winehouse, Queen, Annie Lennox, Simple Minds ."," Will Smith led crowd of 46,664 in chorus of ""Happy Birthday"" to Nelson Mandela . London concert held 20 years ago to celebrate Mandela's 70th birthday . Proceeds from concert will go toward 46664 Campaign, which Mandela founded in 2003 .",0.4578313253012048,0.19753086419753083,0.21686746987951808
+NEWS_0092,"Oscar-winning composer scored the soundtrack for 'Slumdog Millionaire'
+Began work as a 13-year-old to support family after his father died .
+Will continue to score films in India and Hollywood; runs music school in Chennai ."," AR Rahman has worked on films since he was a teenager, taking over the role of family breadwinner after his father died . His Oscar performance and acceptance speech was one of the most memorable at this year's awards . He runs a music school in Chennai, the KM Music Conservatory that keeps him motivated and reminds him that music can transform lives",0.3434343434343434,0.12371134020618557,0.26262626262626265
+NEWS_0093,"Lil Wayne was arrested in July 2007 on weapons charge .
+Hip-hop artist pleaded guilty to reduced charge Thursday; sentencing due in February .
+Lil Wayne launched solo career at age 16 with release of ""Tha Block is Hot"" in 1999 .
+He won two BET Awards in 2007 and four Grammy Awards in 2009 ."," Hip-hop artist Lil Wayne pleads guilty to attempted criminal possession of a weapon . He is expected to receive a one-year jail sentence for his guilty plea . The Grammy Award-winning artist, whose real name is Dwayne Carter, was arrested in 2007 .",0.3958333333333333,0.1914893617021277,0.22916666666666669
+NEWS_0094,"Josh Rouse has fans among other songwriters .
+""Love Vibration"" singer has no hits, but songs in TV shows, movies .
+What's next? ""Afro-Brazilian record in Spanish"""," Josh Rouse has made his name with well-crafted songs in a variety of styles . The 36-year-old singer's willingness to follow several paths may have come from moving around as a child . Rouse's music has appeared in the movie ""Vanilla Sky"" and TV shows including ""Dawson's Creek""",0.30379746835443033,0.1038961038961039,0.22784810126582278
+NEWS_0095,"Sarah Palin reacts to 'Family Guy' creator for jokes about Down syndrome .
+President Obama to meet with Dalai Lama despite protests from China .
+Carly Simon hosts music video contest, but doesn't reveal who is ""so vain"""," Sarah Palin says she was too angry to offer a coherent response to ""Family Guy"" MacFarlane is the voice of the intellectually superior family dog . The show earned an Emmy nomination in 2009 for Outstanding Comedy Series . The Dalai Lama is scheduled to meet with President Obama",0.3333333333333333,0.17073170731707318,0.21428571428571427
+NEWS_0096,"Some people who became famous, tried their hand at teaching first .
+President Lyndon Johnson taught public speaking, coached debate team .
+Art Garfunkel was teaching math when ""Bridge Over Troubled Water"" became a hit .
+Authors Stephen King and J.K. Rowling and singer Sting all taught English .","Gene Simmons taught English, music, and soccer at St. Catherine's Convent School in Harlem . Robert Frost worked as a farmer and teacher at the Pinkerton Academy in Derry, New Hampshire . Andy Griffith taught English at Goldsboro High School in North Carolina .",0.15909090909090912,0.023255813953488372,0.11363636363636362
+NEWS_0097,"Tom Hanks stars in ""Angels & Demons,"" a sequel to ""The Da Vinci Code""
+Fellow cast mate Ewan McGregor says latest film is a standalone .
+Like earlier film, ""Angels & Demons"" has been attacked for mix of fact and fiction .
+Catholic League president: ""It's all a lie"""," ""Angels & Demons"" reunites Tom Hanks with Ron Howard, Ewan McGregor and Ayelet Zurer . Both films have been met with criticism for their melding of history and storytelling . Hanks: ""Everybody is looking for some scandal whether a scandal exists""",0.30952380952380953,0.07317073170731708,0.23809523809523808
+NEWS_0098,"Jeffrey Wright: President Obama catches flak for remarks on professor's arrest .
+Wright applauds Obama for having courage to speak his mind .
+Actor says he too was victim of arrest in which race played a part .
+He says political leaders need to address race and policing ."," Jeffrey Wright: President Obama's response to Harvard professor's arrest was ""stupidly"" Wright: Obama should be able to take race out of policing, he says . He says he was arrested outside a bar where ""W"" cast and crew were celebrating the end of filming . Wright: The truth of what led to the whole morass",0.43564356435643564,0.1414141414141414,0.31683168316831684
+NEWS_0099,"""Watchmen"" premiered in more theaters than any other R-rated movie in history .
+Tyler Perry's ""Madea Goes to Jail"" (No. 2) grossed another $8.8 million .
+Best Picture winner ""Slumdog Millionaire"" took the No. 4 slot with $6.9 million ."," ""Watchmen"" grossed $55.7 million during its first weekend, according to early estimates from Media by Numbers . The film premiered in more theaters (3,611) than any other R-rated movie in history . It averaged an impressive $15,413 per venue, despite a potentially problematic long running time",0.38202247191011235,0.2298850574712644,0.29213483146067415
+NEWS_0100,"The Game records ""Better on the Other Side"" as tribute to Michael Jackson .
+Rapper greatly admired star; Jackson tried to mediate between Game and 50 Cent .
+Game: ""He's iconic to me, and his untimely demise is felt around the world""","Rapper The Game created tribute to Michael Jackson within a day of Jackson's death . Rapper got Michael Jackson tattoo while he was in studio recording the track . He recorded a song, shot a music video and got a Michael Jackson tribute song . The Game says all proceeds from the sale of the single will be donated to Michael",0.32,0.08163265306122448,0.22
+NEWS_0101,"""Grey's Anatomy"" actress Katherine Heigl has own production company .
+Star of hit movie Knocked Up"" is getting married .
+Doesn't go without makeup for fear of ugly photographs .
+Says shopping for wedding dress is ""grueling"""," Katherine Heigl, 28, is nominated for an Emmy for best supporting actress on ""Grey's Anatomy"" She's also the face of Nautica's new women's fragrance in January . ""I love everything new,"" says Heigl. ""I like simple hair and makeup""",0.30769230769230765,0.07894736842105264,0.15384615384615383
+NEWS_0102,"This month Art of Life looks at motorbike, planes, DJs and Rock idols .
+Monita visits the Ducati factory in Bologna, meets Moto champ Casey Stoner .
+Iron Maiden singer Bruce Dickinson talks about his passion for flying .
+DJ Paul Van Dyk takes us on a tour of his favorite parts of Berlin ."," CNN's Monita Rajpal visits the Bologna factory floor and meets Ducati's Moto GP champion Casey Stoner . Iron Maiden's Bruce Dickinson explains why flying is his new source of adrenaline . trance legend Paul Van Dyk takes us on a tour of his hometown, the former East Berlin .",0.58,0.2857142857142857,0.48
+NEWS_0103,"Defcon is a forum to share info on vulnerabilities in software and hardware .
+Attendees worried about using Wi-Fi for fear of passwords being stolen .
+Fake ATM was spotted in hotel with a PC inside it .
+Thumb drive with virus was passed around at conference ."," Defcon 17 was held over the weekend in Las Vegas . The attendees are older and wiser and employed, most of the feds aren't in stealth mode . ""Welcome to the hacker world,"" said Defcon founder Jeff Moss . Defcon organizers confirmed on Monday that a fake ATM was discovered .",0.2795698924731182,0.04395604395604396,0.15053763440860213
+NEWS_0104,"Jennifer Lopez told Allure magazine that she'd fallen off her workout routine .
+Now that she's gearing up with a new album, she's getting back to her old habits .
+Lopez: Part of my business is being in shape and looking good ."," Lopez, 40, says she's not the monster I used to be in the exercise department . Her reprieve likely is coming to an end . The mother of 17-month-old twins Max and Emme released a dance track, ""Fresh Out of the Oven,"" in October .",0.2727272727272727,0.046511627906976744,0.18181818181818182
+NEWS_0105,"Lead singer Steven Tyler fell off stage during South Dakota show last week .
+He broke his shoulder and received stitches to his head; doctors advise rest .
+Fall was second mishap for Tyler during Aerosmith's tour with ZZ Top .
+Band says refunds will be issued for all canceled shows ."," Aerosmith's lead singer Steven Tyler fell off stage August 5 while dancing to ""Love in an Elevator"" He was airlifted to a local hospital for initial treatment before returning to Boston, Massachusetts . Tyler's fall was the second mishap for the lead singer during their tour with ZZ Top .",0.46464646464646464,0.26804123711340205,0.3838383838383838
+NEWS_0106,"Microsoft researcher Gordon Bell argues we will soon have searchable memories .
+Bell details his ideas in a new co-authored book called ""Total Recall""
+Bell has been recording almost every detail of his life digitally for a decade ."," Microsoft researcher Gordon Bell has been moving data from his brain onto computers for the past decade . He carries around video equipment, cameras and audio recorders to capture his conversations, commutes, trips and experiences . By 2020, Bell says, our entire life histories will be online and searchable .",0.3529411764705882,0.12048192771084337,0.2117647058823529
+NEWS_0107,"Prisons official says ex-Atlanta Falcons quarterback left facility early Wednesday .
+He'll serve last two months of sentence in home confinement, most likely in Virginia .
+Vick's attorneys have said he'll work at construction firm; Vick has OK'd documentary .
+Vick, 28, pleaded guilty in 2007 to bankrolling a dogfighting operation in Virginia ."," NEW: Vick will serve last two months of 23-month sentence in home confinement in Virginia . Vick, 28, pleaded guilty in August 2007 to a federal charge of bankrolling a dogfighting operation . He will return to professional football as soon as September if reinstated by the NFL . Vick's attorneys have said he will work at",0.5765765765765765,0.42201834862385323,0.39639639639639634
+NEWS_0108,"A passenger's situation dictates the quickest way to get a cab .
+Taxi Magic, an iPhone app, can help you catch a cab easily .
+Taxis drive past you at night because they can't see you .
+Leave sporting events before the end of the game to get a cab quicker ."," New York City Taxi and Limousine Commission chairman Matthew Daus: ""The biggest problem we face is bandit cabs. Never take a bandit cab"" Taxi driver in Los Angeles: ""If they're there and need a ride I stop my cab""",0.19999999999999998,0.022727272727272724,0.17777777777777778
+NEWS_0109,"No foreign language film has ever won the Oscar for best picture .
+Sixty-five nations submitted foreign language films for consideration this year .
+Best picture nominees expanded from five to 10, increasing chances for foreign films .
+Film fan: ""Slumdog Millionaire"" wouldn't have won last year if it hadn't been in English ."," No foreign language films were nominated in the best picture category at the Academy Awards . Some experts say they don't have the slightest chance of winning the Oscar for best picture . The category was launched in the late 1940s, when it became clear that European and Asian nations were creating incredible films .",0.33962264150943394,0.17307692307692307,0.20754716981132076
+NEWS_0110,"""Desperate Housewives"" actress Eva Longoria Parker  gives peek into closet .
+Says she has Christian Louboutin espadrille wedges in every color.
+Her most-expensive item is a hot-pink crocodile Hermès Birkin bag ."," ""I love my new name. In Texas people are formal, so now it's 'Mrs. Parker' I feel old! But I love it,"" says Parker . ""I've sprained my ankle walking on the cobblestones in Paris wearing them. They're a beautiful pain""",0.13157894736842105,0.0,0.10526315789473685
+NEWS_0111,"""Whip It!"" marks Drew Barrymore's directorial debut .
+Ellen Page plays woman who signs up for roller derby .
+Film leans towards softness, which hurts impact of roller derby ."," ""Whip It!"" suggests what might have happened if Juno had gone to a high school as poky as Napoleon Dynamite's . The movie is Drew Barrymore's directorial debut (she also plays fellow Hurl Scout Smashley Simpson) The rink footage is pretty un-whippy .",0.2222222222222222,0.14285714285714285,0.2222222222222222
+NEWS_0112,"Tennis stars of past and present have turned their talents to land roles in films .
+American ace John McEnroe has appeared in the credits for no less than six features .
+1957 Wimbledon champion starred alongside screen icon John Wayne in a western .
+Indian star Vijay Amritraj was talent spotted for a supporting part in Bond movie Octopussy ."," Rafael Nadal appeared with Colombian rock star Shakira in a new music video . The scenes of the two stars used to accompany the global release of the ""Gypsy"" single were filmed in Barcelona, Spain . Nadal is in no danger of winning an Oscar for his acting skills .",0.25,0.0196078431372549,0.1346153846153846
+NEWS_0113,"Jackson fans converge on London's O2 Arena Monday for memorial .
+Fan Gemma White: ""I feel like I've lost a brother, a lover and a friend""
+Fan vigil timed to coincide with scheduled start date of Jackson's ""This Is It"" concerts .
+Fans from U.S., Middle East and Europe were at Monday's tribute ."," Hundreds of Michael Jackson fans gather in London to pay tribute to the pop star on Monday . Fans laid flowers and memorabilia, wrote messages to the star on a wall and sang Jackson songs . The O2 arena in southeast London had been the site of an unofficial shrine to the performer since his death last month .",0.26785714285714285,0.03636363636363636,0.14285714285714285
+NEWS_0114,"Purchases included crab cakes, beef Wellington, scallops for postmaster installation ceremony .
+Report cites districts for buying $14,140 in movie tickets as employee incentives .
+Purchases conflict with goal to cut costs after reporting $3.8 billion loss in 2009 fiscal year .
+""It appears there is still work to be done in curtailing spending,"" agency's vice president says ."," The U.S. Postal Service spent more than $792,000 ""without justification"" on meals and events in one five-month period . The agency's inspector general found that ""imprudent spending continues to occur"" The agency reported a $3.8 billion net loss for the 2009 fiscal year, despite cost-cutting",0.29629629629629634,0.09433962264150943,0.1851851851851852
+NEWS_0115,"47-year-old British charity worker wows Simon Cowell with singing .
+Clip of Susan Boyle singing has become a YouTube sensation .
+Boyle, from West Lothian, Scotland, said she wanted to be a professional singer ."," YouTube video of Susan Boyle's performance has had more than 5 million hits . Boyle appeared on ""Britain's Got Talent"" last weekend with an inauspicious start . She told judges and audience of the show that she was single, she lived with her cat, Pebbles .",0.20253164556962028,0.05194805194805195,0.1518987341772152
+NEWS_0116,"Rapper Soulja Boy arrested after allegedly running from police in Georgia .
+Officers responded to a report of a large group gathered near a house .
+Witnesses told police the group was filming a video .
+Artist taken into custody after he returned to the scene to get his car, police say ."," Atlanta rapper DeAndre Cortez Way, 19, charged with obstruction after running from police . Rapper was among a large group that had gathered at a home in Stockbridge, Georgia, police say . Officers responded to a complaint about a group of youths milling around the house .",0.5161290322580645,0.17582417582417584,0.30107526881720426
+NEWS_0117,"Singer-actress Mandy Moore engaged to rocker Ryan Adams .
+Moore has had top 10 music success, better known for movie roles .
+Adams a prolific singer-songwriter as soloist and with Whiskeytown, Cardinals .", Mandy Moore's publicist confirms she's engaged to Ryan Adams . Adams is known for producing rock music with a country influence . Rumors first surfaced almost a year ago that Moore and Adams were dating as paparazzi photos surfaced .,0.4225352112676056,0.11594202898550723,0.28169014084507044
+NEWS_0118,"John Mayer says he has a granuloma next to his vocal cords .
+Granuloma is a small area of tissue inflammation .
+Mayer's soon-to-be-released album ""Born and Raised"" will be delayed ."," John Mayer has suffered from a granuloma, a small area of tissue inflammation in the lungs . The singer and songwriter said he had undergone months of monitoring . His soon-to-be-released album ""Born and Raised"" also will be delayed .",0.6575342465753425,0.4507042253521127,0.6027397260273972
+NEWS_0119,"Culture minister condemns sexual tourism, denies he is a pedophile .
+Frederic Mitterrand, in 2005 book, wrote of paying for sex with ""boys"" in Thailand .
+Le Monde on Thursday published steamy excerpts from ""The Bad Life""
+Mitterand came to the defense of Roman Polanski after the filmmaker's arrest ."," French Culture Minister Frederic Mitterrand says he will not resign over accounts in 2005 book . Mitter rand says he has never participated in ""sexual tourism"" in his book . He says he met with French President Nicolas Sarkozy, who supports him . Mittersrand has been criticized for his actions in the book, ""The",0.30303030303030304,0.10309278350515465,0.22222222222222224
+NEWS_0120,"Elizabeth Taylor and Debbie Rowe, Jackson's former wife, not attending memorial .
+Musicians, famed athletes slated for Michael Jackson memorial .
+Private gathering expected to be held at 8 a.m. PT Tuesday ."," NEW: Mariah Carey, Usher, Stevie Wonder, Kobe Bryant, Magic Johnson, Jennifer Hudson, John Mayer, Smokey Robinson to attend . NEW: Former wife Debbie Rowe, mother of Jackson's two oldest children, will not attend service, lawyer says . ""How I feel is between us. Not a public event,"" Taylor tweets",0.27499999999999997,0.10256410256410256,0.17500000000000002
