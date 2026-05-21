@@ -1,0 +1,21 @@
+qid,question,strategy_a_pred,strategy_b_pred,gold_answer,strategy_a_em,strategy_a_f1,strategy_b_em,strategy_b_f1
+qid_01,In what year did Roman Polanski plead guilty to unlawful sexual intercourse,1977,1977,1977,1,1.0,1,1.0
+qid_02,Who rejects the request of Polanski's lawyers to throw out the charges,Los Angeles judge,Zurich police,a Los Angeles judge,1,1.0,0,0.0
+qid_03,Whose house was the photo shoot at during the alleged incident,Jack Nicholson,Roman Polanski,actor Jack Nicholson's house,0,0.5714,0,0.0
+qid_04,What is the name of the Los Angeles Superior Court Judge who left the door open to reconsider his ruling,Peter Espinoza,Roman Polanski,Peter Espinoza,1,1.0,0,0.0
+qid_05,How old was John Singleton when the accident happened,39,39,39,1,1.0,1,1.0
+qid_06,What award did John Singleton win as best new filmmaker,MTV Movie Award,Academy Award,MTV Movie Award,1,1.0,0,0.4
+qid_07,Which award was Roman Polanski on his way to accept at the Zurich Film Festival,Lifetime Achievement,Lifetime Achievement,Lifetime Achievement,1,1.0,1,1.0
+qid_08,Who was among the first to publicly run to Polanski's defense,Otto Weisser,Roman Polanski,Otto Weisser,1,1.0,0,0.0
+qid_09,Who served as the Zurich Film Festival Jury President,Debra Winger,Roman Polanski,Debra Winger,1,1.0,0,0.0
+qid_10,Where did Polanski settle after fleeing the United States to escape jail,France,Switzerland,France,1,1.0,0,0.0
+qid_11,Who was named the richest person on the planet by Forbes,Warren Buffett,Bill Gates,Warren Buffett,1,1.0,0,0.0
+qid_12,What is the estimated net worth of Carlos Slim Helu,$60 billion,$62 billion,60 billion,1,1.0,0,0.5
+qid_13,How old was Facebook founder Mark Zuckerberg when described as the youngest self-made billionaire ever,23,a year,23,1,1.0,0,0.0
+qid_14,Which song of Mat Kearney was used on the show Grey's Anatomy,"Breathe In, Breathe Out",City of Black & White,Breathe In Breathe Out,1,1.0,0,0.0
+qid_15,In what city did Mat Kearney write the title track City of Black and White,Istanbul,Oregon,Istanbul,1,1.0,0,0.0
+qid_16,Which character was Derek Mears cast to play in the Friday the 13th remake,Jason Voorhees,Jason Voorhees,Jason Voorhees,1,1.0,1,1.0
+qid_17,How many account hijacking cases were reported to the Internet Crime Complaint Center since 2006,"72,000","3,200",3200,0,0.0,0,0.0
+qid_18,What is the five-year survival rate when breast cancer is caught early before spreading,97 percent,every three years,97 percent,1,1.0,0,0.0
+qid_19,In which Mexican city did the grenade attack at Casino Royale take crimes,Nuevo Leon,Monterrey,Monterrey,0,0.0,1,1.0
+qid_20,In what year was the fashion designer Roberto Cavalli born,1940,Roberto Cavalli,1940,1,1.0,0,0.0

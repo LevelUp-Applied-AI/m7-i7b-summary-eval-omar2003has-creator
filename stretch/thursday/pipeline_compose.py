@@ -1,30 +1,25 @@
 """
 Module 7 Week B — Thursday Stretch (Honors): Summarize-then-QA.
-
-Composes the Integration 7B summarizer with the Lab 7B QA pipeline. You will
-need the QA pipeline + EM/F1 functions from your Lab 7B `lab.py` — copy them
-into `qa_utils.py` here, or import them via a path stub (see TODO below).
-
-Implement the four TODO functions; see the stretch page for full task description.
 """
 
+import importlib.util
 import json
 import os
 import sys
 
 import pandas as pd
 
-# Import the integration's summarizer functions
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
-import summarize  # noqa: E402
+# ── Import summarize.py from project root ──────────────────────────────────
+_root = os.getcwd()
+_summ_path = os.path.join(_root, "summarize.py")
+_spec = importlib.util.spec_from_file_location("summarize", _summ_path)
+summarize = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(summarize)
 
-# QA pipeline + EM/F1 functions are NOT in this Integration 7B repo. Copy them
-# from your Lab 7B `lab.py` into `stretch/thursday/qa_utils.py` so this script
-# can import them. The autograder verifies these functions are callable; do not
-# proceed without them.
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# ── Import qa_utils ────────────────────────────────────────────────────────
+sys.path.insert(0, os.path.join(_root, "stretch", "thursday"))
 try:
-    import qa_utils  # noqa: E402  (provides build_qa_pipeline, predict_one, exact_match, token_f1, normalize_answer, get_qa_model_name)
+    import qa_utils
 except ImportError as e:
     raise ImportError(
         "qa_utils.py not found. Copy build_qa_pipeline, predict_one, exact_match, "
@@ -34,28 +29,44 @@ except ImportError as e:
 
 
 def qa_full_article(qa, question: str, article: str, max_chunk: int = 384) -> str:
-    """
-    Run QA over the full article, chunking with overlap when it exceeds max_chunk tokens.
+    words = article.split()
 
-    Returns the answer span from the highest-scoring chunk.
-    """
-    # TODO: token-count the article (use a tokenizer or a rough word count); if it fits, call qa once and return predict_one's answer
-    # TODO: if it exceeds max_chunk, split into overlapping windows (e.g., 384-token windows with 64-token overlap)
-    # TODO: call qa on each window; track the pipeline's score per window
-    # TODO: return the answer string from the highest-scoring window
-    raise NotImplementedError("qa_full_article not implemented")
+    if len(words) <= max_chunk:
+        return qa_utils.predict_one(qa, question, article)
+
+    stride = max_chunk - 64
+    best_answer = ""
+    best_score = -1.0
+
+    start = 0
+    while start < len(words):
+        end = min(start + max_chunk, len(words))
+        chunk = " ".join(words[start:end])
+
+        result = qa(question=question, context=chunk)
+        score = result.get("score", 0.0)
+        answer = result.get("answer", "")
+
+        if score > best_score:
+            best_score = score
+            best_answer = answer
+
+        if end == len(words):
+            break
+        start += stride
+
+    return best_answer
 
 
 def qa_via_summary(qa, summ, question: str, article: str, max_summary_length: int = 120) -> str:
-    """
-    Summarize the article first, then run QA on the summary.
-
-    Returns the answer string. Uses Integration 7B's summarize_one (do_sample=False, num_beams=4).
-    """
-    # TODO: summarize the article using summarize.summarize_one with the given max_summary_length
-    # TODO: run QA on the summary using qa_utils.predict_one
-    # TODO: return the answer string
-    raise NotImplementedError("qa_via_summary not implemented")
+    summary_text = summarize.summarize_one(
+        summ,
+        article,
+        max_length=max_summary_length,
+        min_length=30,
+    )
+    answer = qa_utils.predict_one(qa, question, summary_text)
+    return answer
 
 
 def evaluate_strategies(qa, summ, test_set: pd.DataFrame, articles_df: pd.DataFrame) -> dict:
@@ -73,15 +84,59 @@ def evaluate_strategies(qa, summ, test_set: pd.DataFrame, articles_df: pd.DataFr
           ],
         }
     """
-    # TODO: for each test_set row, look up the article in articles_df by article_id
-    # TODO: call qa_full_article (Strategy A) and qa_via_summary (Strategy B); record predictions
-    # TODO: compute EM + F1 for each strategy via qa_utils.exact_match / qa_utils.token_f1
-    # TODO: aggregate per-strategy means; return the combined dict
-    raise NotImplementedError("evaluate_strategies not implemented")
+    predictions = []
+    a_em_total = a_f1_total = b_em_total = b_f1_total = 0.0
+    n = len(test_set)
 
+    for _, row in test_set.iterrows():
+        qid = str(row["qid"])
+        article_id = str(row["article_id"])
+        question = str(row["question"])
+        gold = str(row["gold_answer"])
+
+        article_row = articles_df[articles_df["article_id"].astype(str) == article_id]
+        article_text = str(article_row.iloc[0]["text"]) if not article_row.empty else ""
+
+        pred_a = qa_full_article(qa, question, article_text)
+        pred_b = qa_via_summary(qa, summ, question, article_text)
+
+        a_em = qa_utils.exact_match(pred_a, gold)
+        a_f1 = qa_utils.token_f1(pred_a, gold)
+        b_em = qa_utils.exact_match(pred_b, gold)
+        b_f1 = qa_utils.token_f1(pred_b, gold)
+
+        a_em_total += a_em
+        a_f1_total += a_f1
+        b_em_total += b_em
+        b_f1_total += b_f1
+
+        predictions.append({
+            "qid": qid,
+            "question": question,
+            "strategy_a_pred": pred_a,
+            "strategy_b_pred": pred_b,
+            "gold_answer": gold,
+            "strategy_a_em": a_em,
+            "strategy_a_f1": round(a_f1, 4),
+            "strategy_b_em": b_em,
+            "strategy_b_f1": round(b_f1, 4),
+        })
+
+    return {
+        "strategy_a": {
+            "em": round(a_em_total / n, 4) if n > 0 else 0.0,
+            "f1": round(a_f1_total / n, 4) if n > 0 else 0.0,
+            "n": n,
+        },
+        "strategy_b": {
+            "em": round(b_em_total / n, 4) if n > 0 else 0.0,
+            "f1": round(b_f1_total / n, 4) if n > 0 else 0.0,
+            "n": n,
+        },
+        "predictions": predictions,
+    }
 
 def main() -> None:
-    """Load test set + articles, build pipelines, run both strategies, write artifacts."""
     test_set = pd.read_csv("stretch/thursday/qa_test_set.csv")
     articles_df = pd.read_csv("data/tech_news_articles.csv")
 
@@ -102,7 +157,7 @@ def main() -> None:
     with open("stretch/thursday/compose_metrics.json", "w") as f:
         json.dump(metrics, f, indent=2)
 
-    print(f"Strategy A (full-article QA) — EM={result['strategy_a']['em']:.4f}, F1={result['strategy_a']['f1']:.4f}")
+    print(f"Strategy A (full-article QA)   — EM={result['strategy_a']['em']:.4f}, F1={result['strategy_a']['f1']:.4f}")
     print(f"Strategy B (summarize-then-QA) — EM={result['strategy_b']['em']:.4f}, F1={result['strategy_b']['f1']:.4f}")
 
 
